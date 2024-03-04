@@ -1,9 +1,60 @@
 body {
   margin: 0;
+  border: 10px solid #f3f6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   display: flex;
   justify-content: center;
-  border: 10px solid #f3f6;
+  border-bottom: 10px solid #f3f6;
+}
+
+section {
+  display: flex;
+}
+
+#quizcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px;
+  padding: 20px 0 0 0;
+  border: 10px solid #ff7;
+  position: relative;
+}
+
+h2 {
+  width: 70%;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 40px 10px 40px;
+  margin: 10px;
+}
+
+#tag-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 20px 0 10px 20px;
+}
+
+#tag {
+  margin: 5px;
+  padding: 5px;
+  background-color: #d75e5e53;
+}
+
+.bookmark {
+  position: absolute;
+  top: -20px;
+  right: 5%;
+  width: 40px;
+}
+
+.bookmark_active {
+  background-color: black;
 }
