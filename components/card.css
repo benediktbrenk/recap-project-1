@@ -1,0 +1,10 @@
+.quizcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px;
+  padding: 20px 0 0 0;
+  border: 10px solid #ff7;
+  position: relative;
+}

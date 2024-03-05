@@ -1,0 +1,14 @@
+.button {
+  padding: 10px 40px 10px 40px;
+  margin: 10px;
+}
+
+.button-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container1 {
+  background-color: grey;
+}

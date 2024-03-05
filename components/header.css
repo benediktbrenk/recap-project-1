@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: silver;
+  z-index: 1;
+}
+
+.headline {
+  width: 70%;
+  font-size: 20px;
+}
