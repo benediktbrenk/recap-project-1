@@ -2,6 +2,7 @@
 @import "/components/button.css";
 @import "/components/card.css";
 @import "/components/footer.css";
+@import "/components/checkbox.css";
 
 * {
   box-sizing: border-box;
@@ -31,11 +32,17 @@
 
 .bookmark {
   position: absolute;
-  top: -20px;
+  top: 0px;
   right: 5%;
-  width: 40px;
+  transform: translateY(-30px);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #4d6289;
+  color: white;
 }
 
-.bookmark_active {
-  background-color: black;
+.bookmark__active {
+  background-color: red;
 }
