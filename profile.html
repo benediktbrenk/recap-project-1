@@ -20,29 +20,36 @@
       </section>
       <article class="about-me">
         <h2>About me</h2>
-        <p">
+        <p>
           __________________________________________<br />
           _____________________<br />
         </p>
       </article>
       <section class="counter">
         <div class="counter-elements">
-            <img class="bookmark_menu" src="./bookmark.svg" alt="Home" />
-            <p>12</p>
+          <img class="bookmark_menu" src="./bookmark.svg" alt="Home" />
+          <p>12</p>
         </div>
         <div class="counter-elements">
-            <img class="bookmark_menu" src="./bookmark.svg" alt="Home" />
-            <p>13</p>
+          <img class="bookmark_menu" src="./bookmark.svg" alt="Home" />
+          <p>13</p>
         </div>
       </section>
       <section class="settings">
         <div>
           <h2>Settings</h2>
         </div>
-        <div>
-          <input type="checkbox" name="dark-mode" id="dark-mode" />
-          <label for="dark-mode">Dark Mode</label>
-        </div>
+        <form class="toggle-checkbox-wrapper">
+          <input
+            class="toggle-checkbox"
+            type="checkbox"
+            name="dark-mode"
+            id="dark-mode"
+          />
+          <label class="slider" for="dark-mode">
+            <span class="toggle-switch opt1">Dark-mode!</span>
+          </label>
+        </form>
       </section>
     </main>
 
