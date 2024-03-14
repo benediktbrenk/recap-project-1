@@ -3,6 +3,7 @@
 @import "/components/card.css";
 @import "/components/footer.css";
 @import "/components/checkbox.css";
+@import "/components/form.css";
 
 * {
   box-sizing: border-box;
@@ -14,13 +15,14 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #dea833;
+  background-color: white;
 }
 
 .tag {
   margin: 5px;
   padding: 5px;
-  background-color: #de9133;
+  background-color: green;
+  color: white;
 }
 
 .tag-container {
@@ -43,6 +45,10 @@
   color: white;
 }
 
+.bookmark-icon {
+  fill: white;
+}
+
 .bookmark__active {
-  background-color: red;
+  fill: blueviolet;
 }

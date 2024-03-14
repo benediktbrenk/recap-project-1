@@ -1,7 +1,9 @@
 .button {
   padding: 10px 40px 10px 40px;
   margin: 10px;
-  background-color: silver;
+  background-color: #4d6289;
+  color: white;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .button__container {

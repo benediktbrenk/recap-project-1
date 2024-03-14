@@ -1,0 +1,20 @@
+.form {
+  margin: 10px;
+  width: 100%;
+}
+
+.form-field {
+  width: 80%;
+  height: 40px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin: 30;
+  margin: 40px 20px;
+}
+
+.submit__button {
+  margin: 0;
+}

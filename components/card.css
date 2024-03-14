@@ -11,7 +11,8 @@
   align-items: center;
   margin: 40px 20px;
   padding: 20px 0 0 0;
-  border: 10px solid #ff7;
+  border: 5px solid #4d6289;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   position: relative;
 }
 

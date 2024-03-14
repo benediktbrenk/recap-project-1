@@ -1,6 +1,7 @@
 const answerButton = document.querySelector(`[data-js="answer-button"]`);
 const answer = document.querySelector(`[data-js="answer"]`);
 const bookmark = document.querySelector(`[data-js="bookmark"]`);
+const bookmarkIcon = document.querySelector(`[data-js="bookmark-icon"]`);
 
 answer.hidden = true;
 answerButton.addEventListener("click", () => {
@@ -14,5 +15,5 @@ answerButton.addEventListener("click", () => {
 });
 
 bookmark.addEventListener("click", () => {
-  bookmark.classList.toggle("bookmark__active");
+  bookmarkIcon.classList.toggle("bookmark__active");
 });
