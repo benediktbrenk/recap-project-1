@@ -20,13 +20,23 @@
             class="form form-field"
             name="question"
             id="question"
+            maxlength="150"
+            data-js="question-field"
           ></textarea>
+          <p class="characters-left" data-js="characters-left__question">
+            150 characters left
+          </p>
           <label class="form" for="answer">Your answer:<br /></label>
           <textarea
             class="form form-field"
             name="answer"
             id="answer"
+            maxlength="150"
+            data-js="answer-field"
           ></textarea>
+          <p class="characters-left" data-js="characters-left__answer">
+            150 characters left
+          </p>
           <label class="form" for="tag">Tag:<br /></label>
           <input class="form form-field" type="text" name="tag" id="tag" />
           <button class="button submit__button">Submit</button>
