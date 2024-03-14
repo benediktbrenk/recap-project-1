@@ -17,38 +17,3 @@
   min-height: 100vh;
   background-color: white;
 }
-
-.tag {
-  margin: 5px;
-  padding: 5px;
-  background-color: green;
-  color: white;
-}
-
-.tag-container {
-  display: flex;
-  width: 100%;
-  justify-content: flex-start;
-  padding: 20px 0 10px 20px;
-}
-
-.bookmark {
-  position: absolute;
-  top: 0px;
-  right: 5%;
-  transform: translateY(-30px);
-  border: none;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background: #4d6289;
-  color: white;
-}
-
-.bookmark-icon {
-  fill: white;
-}
-
-.bookmark__active {
-  fill: blueviolet;
-}
