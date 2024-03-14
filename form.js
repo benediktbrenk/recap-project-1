@@ -1,5 +1,25 @@
-const formField = document.querySelector(`[data-js="form-field"]`);
 const main = document.querySelector(`[data-js="main"]`);
+const formField = document.querySelector(`[data-js="form-field"]`);
+const questionField = document.querySelector(`[data-js="question-field"]`);
+const charactersLeftQuestion = document.querySelector(
+  `[data-js="characters-left__question"]`
+);
+const answerField = document.querySelector(`[data-js="answer-field"]`);
+const charactersLeftAnswer = document.querySelector(
+  `[data-js="characters-left__answer"]`
+);
+
+const outputCharacters = (charactersLeft, field) => {
+  charactersLeft.innerText = `${150 - field.value.length} characters left`;
+};
+
+questionField.addEventListener("input", () => {
+  outputCharacters(charactersLeftQuestion, questionField);
+});
+
+answerField.addEventListener("input", () => {
+  outputCharacters(charactersLeftAnswer, answerField);
+});
 
 formField.addEventListener("submit", (event) => {
   event.preventDefault();
