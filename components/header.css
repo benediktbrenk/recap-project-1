@@ -4,8 +4,10 @@
   justify-content: center;
   position: sticky;
   top: 0;
-  background-color: #4d6289;
+  background: linear-gradient(to right, #4d6289, green);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   z-index: 1;
+  color: white;
 }
 
 .headline {
