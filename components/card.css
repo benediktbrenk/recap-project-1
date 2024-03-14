@@ -9,11 +9,33 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 20px;
+  width: 80%;
+  margin: 40px 0;
   padding: 20px 0 0 0;
   border: 5px solid #4d6289;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   position: relative;
+}
+
+.bookmark {
+  position: absolute;
+  top: 0px;
+  right: 5%;
+  transform: translateY(-30px);
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #4d6289;
+  color: white;
+}
+
+.bookmark-icon {
+  fill: white;
+}
+
+.bookmark__active {
+  fill: blueviolet;
 }
 
 .profile-name {
@@ -26,6 +48,20 @@
   display: flex;
   width: 30%;
   font-size: 40px;
+}
+
+.tag {
+  margin: 5px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+}
+
+.tag-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  padding: 20px 0 10px 20px;
 }
 
 .about-me {
