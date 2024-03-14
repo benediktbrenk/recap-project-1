@@ -1,11 +1,8 @@
 .navigation {
-  position: sticky;
-  margin-top: auto;
-  height: 20vw;
-  width: 100%;
+  position: fixed;
   bottom: 0;
-  box-sizing: border-box;
-  display: flex;
+  left: 0;
+  width: 100%;
   background-color: white;
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.5);
 }
@@ -18,15 +15,16 @@
   padding: 0;
   margin: 0;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .navigation__list-item {
+  padding: 1.5rem 0.5rem;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
 }
 
 .navigation__list-item--active {
@@ -34,11 +32,7 @@
 }
 
 .navigation__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: black;
   padding: 0;
-  height: 100%;
-  width: 100%;
+  text-decoration: none;
 }

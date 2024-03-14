@@ -1,7 +1,12 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.headline {
+  width: 70%;
+  font-size: 20px;
+}
+
+.card-list {
+  margin: 0 auto;
+  padding: 10rem 2rem 4rem 2rem;
+  max-width: 45rem;
 }
 
 .quizcard {
@@ -9,9 +14,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 40px 0;
-  padding: 20px 0 0 0;
+  margin: 0 0 4rem;
   border: 5px solid #4d6289;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   position: relative;
@@ -38,18 +41,6 @@
   fill: blueviolet;
 }
 
-.profile-name {
-  display: flex;
-  align-items: center;
-  width: 80%;
-}
-
-.profile-img {
-  display: flex;
-  width: 30%;
-  font-size: 40px;
-}
-
 .tag {
   margin: 5px;
   padding: 5px;
@@ -62,33 +53,4 @@
   width: 100%;
   justify-content: flex-start;
   padding: 20px 0 10px 20px;
-}
-
-.about-me {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 80%;
-}
-
-.counter {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin: 10px;
-}
-
-.counter-elements {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-around;
-  background-color: silver;
-  width: 20%;
-  border-radius: 20%;
-}
-
-.settings {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
 }

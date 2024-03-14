@@ -25,30 +25,34 @@ formField.addEventListener("submit", (event) => {
   event.preventDefault();
   const formElements = event.target.elements;
 
-  const section = document.createElement("section");
-  section.classList.add("quizcard");
-  main.append(section);
+  const list = document.createElement("ul");
+  list.classList.add("card-list");
+  main.append(list);
+
+  const listItem = document.createElement("li");
+  listItem.classList.add("quizcard");
+  list.append(listItem);
 
   const headline = document.createElement("h2");
   headline.classList.add("headline");
   headline.textContent = formElements.question.value;
-  section.append(headline);
+  listItem.append(headline);
 
   const button = document.createElement("button");
   button.classList.add("button");
   button.setAttribute("data-js", "answer");
   button.textContent = "Show answer";
-  section.append(button);
+  listItem.append(button);
 
   const answer = document.createElement("p");
   answer.classList.add("answer");
   answer.setAttribute("data-js", "answer-button");
   answer.textContent = formElements.answer.value;
-  section.append(answer);
+  listItem.append(answer);
 
   const tagContainer = document.createElement("div");
   tagContainer.classList.add("tag-container");
-  section.append(tagContainer);
+  listItem.append(tagContainer);
 
   const tag1 = document.createElement("p");
   tag1.classList.add("tag");
@@ -60,7 +64,7 @@ formField.addEventListener("submit", (event) => {
   bookmark.setAttribute("data-js", "bookmark");
   bookmark.setAttribute("aria-label", "bookmark");
   bookmark.setAttribute("type", "button");
-  section.append(bookmark);
+  listItem.append(bookmark);
 
   const bookmarkIcon = document.createElementNS(
     "http://www.w3.org/2000/svg",
