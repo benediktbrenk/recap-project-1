@@ -1,10 +1,11 @@
 @import "/components/header.css";
-@import "/components/button.css";
+@import "/components/Button/button.css";
 @import "/components/card.css";
 @import "/components/nav.css";
 @import "/components/checkbox.css";
-@import "/components/form.css";
+@import "/components/Form/form.css";
 @import "/components/profile.css";
+@import "/components/Spa/spa.css";
 
 * {
   box-sizing: border-box;
